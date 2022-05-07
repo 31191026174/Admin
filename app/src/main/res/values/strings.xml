@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">quanly</string>
+    <string name="nav_QLSV">Quản lý tạm trú</string>
+    <string name="nav_QLTro">Quản lý hộ kinh doanh</string>
+    <string name="nav_Map">Bản đồ phân bố</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

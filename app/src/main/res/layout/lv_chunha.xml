@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<ImageView-->
+    <!--android:id="@+id/imMon"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_marginTop="5dp"/>-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+    <!--<TextView-->
+    <!--android:id="@+id/txtTenmon"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Tên"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--android:textStyle="bold"-->
+    <!--android:textSize="18sp"/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/txtGiamon"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Tên"-->
+    <!--android:layout_marginLeft="10dp"-->
+
+    <!--android:textSize="17sp"/>-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#DADADA">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:background="#fff">
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvAvatarCT"-->
+                <!--android:layout_width="70dp"-->
+                <!--android:layout_height="70dp"-->
+                <!--android:background="#18ade4"-->
+                <!--android:gravity="center"-->
+                <!--android:text="1"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textSize="28sp"-->
+                <!--android:textStyle="bold" />-->
+            <ImageView
+                android:id="@+id/imgAvatarlv"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvNameCT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="Nguyễn Văn Thành"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvDiaChiCT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:text="244/33/1/7 Lê Hồng Phong"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtTienMon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

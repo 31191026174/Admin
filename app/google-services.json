@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "141235620327",
+    "firebase_url": "https://appnhatro-1d4b7-default-rtdb.firebaseio.com",
+    "project_id": "appnhatro-1d4b7",
+    "storage_bucket": "appnhatro-1d4b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141235620327:android:5b50d0910647567daf9542",
+        "android_client_info": {
+          "package_name": "com.example.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141235620327-k6a2se3v6du2s2p6mc517m7a8m6vji10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCRQD-n2JX3T0JFcLZsP68voybyggG9fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141235620327-k6a2se3v6du2s2p6mc517m7a8m6vji10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141235620327:android:b1248cf045dd9b2daf9542",
+        "android_client_info": {
+          "package_name": "com.example.appnhatro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141235620327-k6a2se3v6du2s2p6mc517m7a8m6vji10.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCRQD-n2JX3T0JFcLZsP68voybyggG9fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141235620327-k6a2se3v6du2s2p6mc517m7a8m6vji10.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
